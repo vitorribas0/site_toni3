@@ -2081,17 +2081,6 @@
   left: calc(50% - 960px);
   top: 7537px;
 }
-.contact-form {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  position: absolute;
-  top: 154px; /* Ajuste para baixo */
-  right: 50px; /* Ajuste para a esquerda */
-  transform: none;
-}
 .heading-221 {
   height: 190.38px;
   position: absolute;
@@ -2276,11 +2265,10 @@ menu, ol, ul {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 600px;
-  margin: 40px auto;
-  position: relative;
-  bottom: 0;
-  left: 23%;
-  transform: translateX(-50%);
+  position: absolute;
+  top: 154px; /* Ajuste para baixo */
+  right: 50px; /* Ajuste para a esquerda */
+  transform: none;
 }
 .contact-form h2 {
   margin-bottom: 20px;
